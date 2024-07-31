@@ -5,4 +5,5 @@ data modify storage home:buffer home.y set from entity @s Pos[1]
 data modify storage home:buffer home.z set from entity @s Pos[2]
 data modify storage home:buffer home.yaw set from entity @s Rotation[0]
 data modify storage home:buffer home.pitch set from entity @s Rotation[1]
+data modify storage home:buffer home.dimension set from entity @s Dimension
 function home:update with storage home:buffer
